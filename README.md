@@ -7,7 +7,7 @@ Implementation of Miller-Rabin probabilistic primality testing algorithm in GAWK
 
 # Usage
 ```bash
-/usr/bin/gawk -M -f is_prime3.awk -v Subject=$Subject -v k=$k
+/usr/bin/gawk -M -f MRPT.awk -v Subject=$Subject -v k=$k
 ```
 
 # Recommended gawk version
