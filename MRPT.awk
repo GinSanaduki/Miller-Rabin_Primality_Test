@@ -2,15 +2,15 @@
 # MRPT.awk
 
 # Usage.
-# /usr/bin/gawk -M -f is_prime3.awk -v Subject=$Subject -v k=$k
+# /usr/bin/gawk -M -f MRPT.awk -v Subject=$Subject -v k=$k
 
 # Return Value is 0 : Subject is prime number.
 # Return Value is 1 : Subject is not prime number.
 # Return Value is 99 : Invalid Argument.
 
 # Example.
-# /usr/bin/gawk -M -f is_prime3.awk -v Subject=13 -v k=50
-# /usr/bin/gawk -M -f is_prime3.awk -v Subject=13 -v k=100
+# /usr/bin/gawk -M -f MRPT.awk -v Subject=13 -v k=50
+# /usr/bin/gawk -M -f MRPT.awk -v Subject=13 -v k=100
 
 # Reference.
 # https://pashango-p.hatenadiary.org/entry/20090704/1246692091
