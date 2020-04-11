@@ -15,10 +15,12 @@ while :
 do
 	PRNC=`od -A n -t u4 /dev/urandom | \
 	head -n $Split4 | \
-	awk -f Zero_One.awk | \
+	awk 'for(i = 1; i <= NF; i++){printf("%s ", $i % 2);}' | \
 	# Cut out the number of lines of the parameter value.
 	head -n $1 | \
-	/usr/bin/gawk -M -f Conv_2_10.awk`
+	# http://okgnz.web.fc2.com/xscripts/xscripts02.htm
+	# ２進16進変換(AWK)
+	/usr/bin/gawk -M '{result = 0; for (i = 1; i < NF + 1; i++){result = result * 2 + $i;} printf("%d\n", result);}'`
 	echo $PRNC" "$Param2 | /usr/bin/gawk -M '{if($1 > 0 && $1 <= $2){exit;} else {exit 1;}}' && break;
 done
 
