@@ -14,6 +14,10 @@ Implementation of Miller-Rabin probabilistic primality testing algorithm in GAWK
 * n is a composite number, but the probability of determining that it may be a prime number is at most 4 ^ -k.
 * When k is 50, the probability of being wrong is 1 / 1267650600228229401496703205376.
 
+* Return Value is 0 : Subject is prime number.
+* Return Value is 1 : Subject is not prime number.
+* Return Value is 99 : Invalid Argument.
+
 # Recommended gawk version
 * The version of gawk is 4 or later, and the MPFR library has been installed.
 * If the version of gawk is 5, the MPFR library may not be installed.
