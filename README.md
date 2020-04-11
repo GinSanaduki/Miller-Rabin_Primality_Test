@@ -16,6 +16,8 @@ Implementation of Miller-Rabin probabilistic primality testing algorithm in GAWK
 ```bash
 $ /usr/bin/gawk -V
 GNU Awk 4.1.4, API: 1.1 (GNU MPFR 4.0.1, GNU MP 6.1.2)
+$/usr/local/bin/gawk -V
+GNU Awk 5.0.1, API: 2.0
 $
 ```
 
