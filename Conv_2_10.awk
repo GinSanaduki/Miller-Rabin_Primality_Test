@@ -10,7 +10,6 @@
 	for (i = 1; i < NF + 1; i++){
 		result = result * 2 + $i;
 	}
-	# printf("%s => %d \n",$0,result);
 	printf("%d\n", result);
 }
 
