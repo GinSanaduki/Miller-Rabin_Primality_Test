@@ -3,7 +3,7 @@
 # $GAWK -M -f Conv_2_10.awk
 
 # http://okgnz.web.fc2.com/xscripts/xscripts02.htm
-# ‚Qi16i•ÏŠ·(AWK)
+# ï¼’é€²16é€²å¤‰æ›(AWK)
 
 {
 	result = 0;
