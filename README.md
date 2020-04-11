@@ -21,3 +21,7 @@ GNU Awk 5.0.1, API: 2.0
 $
 ```
 
+# Reference
+https://pashango-p.hatenadiary.org/entry/20090704/1246692091  
+Pythonを使って高速素数判定をしてみる - Pashango’s Blog  
+
