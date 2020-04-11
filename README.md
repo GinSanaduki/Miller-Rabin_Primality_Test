@@ -9,6 +9,10 @@ Implementation of Miller-Rabin probabilistic primality testing algorithm in GAWK
 ```bash
 /usr/bin/gawk -M -f MRPT.awk -v Subject=$Subject -v k=$k
 ```
+* Subject is odd integer to be tested for prime number.
+* k is parameter that specifies the accuracy of the judgment.
+* n is a composite number, but the probability of determining that it may be a prime number is at most 4 ^ -k.
+* When k is 50, the probability of being wrong is 1 / 1267650600228229401496703205376.
 
 # Recommended gawk version
 * The version of gawk is 4 or later, and the MPFR library has been installed.
