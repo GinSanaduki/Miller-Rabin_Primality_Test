@@ -34,5 +34,6 @@ https://pashango-p.hatenadiary.org/entry/20090704/1246692091
 Pythonを使って高速素数判定をしてみる - Pashango’s Blog  
 
 # Licenses
-This program is under the terms of the BSD 3-Clause License. See https://opensource.org/licenses/BSD-3-Clause.
+This program is under the terms of the BSD 3-Clause License.  
+See https://opensource.org/licenses/BSD-3-Clause.  
 
